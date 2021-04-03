@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.logo__info {
+.logo__nfo {
   font-family: fantasy, cursive;
 }
 
@@ -36,6 +36,10 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+}
+
+.task-row-wrapper {
+  display: flex;
 }
 
 ul {
@@ -85,8 +89,8 @@ button {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #ddd;
-  background: #fff;
+  border: 1px solid #dddddd;
+  background: #ffffff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -102,7 +106,7 @@ button {
   margin: 0 0 20px;
 }
 
-input#task {
+#task {
   width: 318px;
 }
 

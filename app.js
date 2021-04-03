@@ -10,7 +10,7 @@
 
 var taskInput=document.getElementById("task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("incomplete");//ul of #incompleteTasks
+var incompleteTaskHolder=document.getElementById("incompleted");//ul of #incompleteTasks
 var completedTasksHolder=document.getElementById("completed");//completed-tasks
 
 
@@ -41,6 +41,7 @@ var createNewTaskElement=function(taskString){
     checkBox.type="checkbox";
     editInput.type="text";
     editInput.classList.add('text-input');
+    
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="edit-btn";
