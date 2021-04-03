@@ -32,7 +32,7 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
-    listItem.classList.add('item');
+    listItem.classList.add('list__item');
     label.innerText=taskString;
     label.className='task';
     checkBox.className='checkbox-input';
